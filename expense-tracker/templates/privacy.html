@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Privacy Policy{% endblock %}
+{% block content %}
+<section class="auth-section">
+    <div class="auth-container">
+        <div class="auth-header">
+            <h1 class="auth-title">Privacy Policy</h1>
+        </div>
+        <div class="auth-card">
+            <h2 class="auth-subtitle">Data We Collect</h2>
+            <p>We store the expense entries, categories, dates, and any optional notes you provide. Your email address is collected only for account registration and login.</p>
+            <h2 class="auth-subtitle">How We Use Your Data</h2>
+            <p>The data is used solely to display your personal finance reports, generate summaries, and enable you to track spending over time. We never sell or share your information for marketing purposes.</p>
+            <h2 class="auth-subtitle">Data Storage</h2>
+            <p>All data is saved in a local SQLite database on your device. We do not transfer it to external servers unless you explicitly export it.</p>
+            <h2 class="auth-subtitle">Third‑Party Services</h2>
+            <p>We may use third‑party libraries (e.g., Flask, Jinja) hosted via package managers, but they do not collect personal data from your usage of the app.</p>
+            <h2 class="auth-subtitle">Contact Us</h2>
+            <p>If you have questions about this privacy policy, please contact the project maintainer via the repository’s issue tracker.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
